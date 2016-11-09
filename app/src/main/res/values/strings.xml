@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Technotrack-android-task2-oauth2</string>
+
+    <string name="preference_file_key">ru.gafusss.technotrack.technotrack_android_task2_oauth2.PREFERENCE_FILE_KEY</string>
+    <string name="preference_token_key">token</string>
+    <string name="preference_valid_through_key">valid_through</string>
+
+    <string name="intent_extra_token">token</string>
+    <string name="intent_extra_valid_through">valid_through</string>
+
+    <string name="client_id">djAy9wciIgxPga2nkUkz40FUvriKaDk9EwXR9Dl7</string>
+    <string name="client_secret">LWw5rYQcqZ344hd2YGFzMCNxHQmd2Hs11fal3NiOhtnuSKzpOC35Ln3ifSGsIsdv0LKMQCjcnbZVYBq7ZMsaMdSqX0htgYVBjk0gTq0hBVkXZPZLKQzml5jSc8qKKqzP</string>
+
+    <string name="callback_url">https://technotrack.gafusss.ru/</string>
+    <string name="auth_url">https://technotrack.gafusss.ru/o/authorize/?client_id=%1$s%2$sredirect_url=%3$s%4$sresponse_type=code</string>
+    <string name="token_url">https://technotrack.gafusss.ru/o/token/?client_id=%1$s%2$sclient_secret=%3$s%4$scode=%5$s%6$sgrant_type=authorization_code%7$sredirect_uri=%8$s</string>
+    <string name="validate_url">https://technotrack.gafusss.ru/api/</string>
+
+    <string name="oauth2_json_key_access_token">access_token</string>
+    <string name="oauth2_json_key_expires_in">expires_in</string>
+
+    <string name="valid_through_format">dd-MM-yyyy hh:mm:ss</string>
+
+    <string name="textview_token_success">Вы успешно авторизовались. Ваш токен перестанет действовать %1$s</string>
+    <string name="textview_token_failure">Произошла ошибка авторизации. Попробуйте войти снова</string>
+    <string name="button_try_again">Войти</string>
+</resources>
